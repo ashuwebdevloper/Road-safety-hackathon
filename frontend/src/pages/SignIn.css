@@ -1,0 +1,194 @@
+/* SignIn Container */
+.signin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+
+  }
+  
+  /* SignIn Box */
+  .signin-box {
+    background: white;
+    padding: 2rem;
+    margin-left: 10PX;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .signin-box:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Heading */
+  .signin-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Error Message */
+  .error-message {
+    background: #ffebee;
+    color: #c62828;
+    padding: 0.75rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  /* Input Group */
+  .input-group {
+    margin-bottom: 1.5rem;
+    text-align: left;
+  }
+  
+  .input-label {
+    display: block;
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .input-field:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+  }
+  
+  /* Forgot Password Link */
+  .forgot-password {
+    text-align: right;
+    margin-bottom: 1.5rem;
+  }
+  
+  .forgot-password-link {
+    color: #4a90e2;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  
+  .forgot-password-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Login Buttons */
+  .login-button {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 1rem;
+  }
+  
+  .login-button.admin-button {
+    background-color: #4a90e2;
+  }
+  
+  .login-button.admin-button:hover {
+    background-color: #357abd;
+  }
+  
+  .login-button.user-button {
+    background-color: #2ecc71;
+  }
+  
+  .login-button.user-button:hover {
+    background-color: #27ae60;
+  }
+  
+  /* Divider */
+  .divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #888;
+    margin: 1.5rem 0;
+  }
+  
+  .divider::before,
+  .divider::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .divider::before {
+    margin-right: 1rem;
+  }
+  
+  .divider::after {
+    margin-left: 1rem;
+  }
+  
+  /* Social Login Buttons */
+  .social-login {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .social-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .social-button:hover {
+    background-color: #e4e9e1;
+  }
+  
+  .social-button.facebook {
+    color: #000000;
+  }
+  
+  .social-button.twitter {
+    color: #000000;
+  }
+  
+  .social-button.google {
+    color: #000000;
+  }
+  
+  /* Sign Up Section */
+  .signup-section {
+    text-align: center;
+    color: #555;
+  }
+  
+  .signup-link {
+    color: #4a90e2;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .signup-link:hover {
+    text-decoration: underline;
+  }
